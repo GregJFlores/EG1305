@@ -7,7 +7,7 @@ package assignment_1;
 //Program: Drink.java                                                       *
 //Author: Gregory Flores                                                    *
 //Language: Java                                                            *
-//Description: Calculates he approximate number of customers in the survey  * 
+//Description: Calculates the approximate number of customers in the survey  * 
 //who purchase one or more energy drinks per week, and approximate number of*
 //customers in the survey who prefer citrus flavored energy drinks.         *
 //out of a survey of 12,467 people.                                         *
