@@ -33,6 +33,8 @@ public class Drink
 		customersOneOrMoreDrinkPerWeek = (int) (customers * percentageOneOrMoreDrinkPerWeek);
 		customersPreferCitrusFlavor = (int) (customers * percentagePreferCitrusFlavor);
 		
+		//Last one is not correct. It should be customers * percentageOneOrMoreDrinkPerWeek * percentagePreferCitrusFlavor
+		
 		//create DecimalFormat Object
 		DecimalFormat d = new DecimalFormat();
 		
