@@ -31,9 +31,8 @@ public class Drink
 		//calculate the amount of customers who purchase one or more energy drinks per week
 		//calculate the amount of customers who prefer citrus flavored energy drinks
 		customersOneOrMoreDrinkPerWeek = (int) (customers * percentageOneOrMoreDrinkPerWeek);
-		customersPreferCitrusFlavor = (int) (customers * percentagePreferCitrusFlavor);
+		customersPreferCitrusFlavor = (int) (customers * percentageOneOrMoreDrinkPerWeek * percentagePreferCitrusFlavor);
 		
-		//Last one is not correct. It should be customers * percentageOneOrMoreDrinkPerWeek * percentagePreferCitrusFlavor
 		
 		//create DecimalFormat Object
 		DecimalFormat d = new DecimalFormat();
