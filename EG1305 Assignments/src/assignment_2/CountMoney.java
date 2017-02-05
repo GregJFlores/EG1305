@@ -45,6 +45,9 @@ public class CountMoney
 		int nickels = (Integer.parseInt(cents)-(dimes*10)-(quarters*25))/5;
 		int pennies = (Integer.parseInt(cents)-(nickels*5)-(dimes*10)-(quarters*25))/1;
 		
+		//The algorithm is correct, but it parses the input 4 times, which is a bit inefficient. 
+		//Save Integer.parseInt(cents) to a separate variable before counting.
+		
 		//output result to console
 		System.out.println("You entered "+currency+" which is $"+dollars+"."+cents
 				+ "\nWhich consits of:\n"+quarters+" quarters\n"
