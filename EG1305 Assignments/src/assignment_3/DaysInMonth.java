@@ -18,7 +18,8 @@ public class DaysInMonth
 		Scanner input = new Scanner(System.in);
 		
 		//declare variables 
-		int jan,mar,may,jul,aug,oct,dec;
+		int jan,mar,may,jul,aug,oct,dec; //I don't think you need to declare variables here. 
+		//Only variable you need in the program is days.
 		int apr,jun, sept, nov;
 		int feb = 28;
 		int days = 0;
@@ -29,7 +30,7 @@ public class DaysInMonth
 		
 		
 		//always 31 days in these months
-		jan = mar = may = jul = aug = oct = dec = 31;
+		jan = mar = may = jul = aug = oct = dec = 31; //This section of the program is redundant.
 		//always 30 days in these months
 		apr = jun = sept = nov = 30;
 		
