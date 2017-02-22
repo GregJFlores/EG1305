@@ -53,9 +53,9 @@ public class CompareNumbers
 			max = num3;
 			
 		}
-		else
+		else //this else block is redundant
 		{
-			max = max;
+			max = max; 
 		}
 		
 		//declare min
@@ -79,12 +79,12 @@ public class CompareNumbers
 			min = num3;
 			
 		}
-		else
+		else //this else block is redundant
 		{
 			min = min;
 		}
 		//calculate average
-		int average = (num1+num2+num3)/3;
+		int average = (num1+num2+num3)/3; //Use spaces around operators
 		//calculate product
 		int product = num1*num2*num3;
 		//calculate sum
